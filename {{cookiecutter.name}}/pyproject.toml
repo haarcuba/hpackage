@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "{{cookiecutter.name}}"
+version = "0.1.0"
+description = "{{cookiecutter.description}}"
+authors = ["AUTHOR_NAME_HERE"]
+readme = "README.md"
+packages = [
+    { include = "{{cookiecutter.name}}", from = "source" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
