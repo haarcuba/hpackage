@@ -40,3 +40,8 @@ repos:
   hooks:
     - id: mypy
       additional_dependencies: [pydantic, types-requests, types-PyYAML]
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 0.29.2
+  hooks:
+    - id: check-github-workflows
+      args: ["--verbose"]
