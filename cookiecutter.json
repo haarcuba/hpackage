@@ -1,4 +1,5 @@
 {
     "name": null,
-    "description": null
+    "description": null,
+    "_copy_without_render": [".github/actions/basic_setup/action.yaml"]
 }
