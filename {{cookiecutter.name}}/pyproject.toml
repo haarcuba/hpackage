@@ -17,4 +17,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tools.poetry.scripts]
-{{cookiecutter.name}} = "{{cookiecutter.name}}.cli:main"
+{{cookiecutter.name}}-cli = "{{cookiecutter.name}}.cli:main"
