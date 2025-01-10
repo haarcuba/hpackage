@@ -3,7 +3,7 @@ ARG COMMIT_HASH=unknown
 
 RUN apt-get update -y
 RUN apt-get install -y pipx
-RUN pipx install poetry
+RUN pipx install --python python3.12 poetry==1.8.5
 
 WORKDIR /opt/{{cookiecutter.name}}
 
